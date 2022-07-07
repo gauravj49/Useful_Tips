@@ -1,6 +1,7 @@
 ### - Initialize an empty dataframe with column names
 ```
-<perChromCis <- data.frame(matrix(ncol = 3, nrow = 0)); colnames(perChromCis) <- c('sample', 'cis','region')>
+perChromCis <- data.frame(matrix(ncol = 3, nrow = 0))
+colnames(perChromCis) <- c('sample', 'cis','region')
 ```
 ```
 > str(perChromCis)
